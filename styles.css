@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E3B4E; /* Dark Blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.fade-buttons {
+    text-align: center;
+    padding: 10px;
+    background-color: #87CEEB; /* Light Blue */
+}
+
+.fade-buttons a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fade-buttons a:hover {
+    opacity: 0.7;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
