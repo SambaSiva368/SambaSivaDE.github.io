@@ -1,61 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Samba Siva Perumalla</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Samba Siva Perumalla - Data Engineer</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="C:\Users\perumalla.harikr\Desktop\My_Folder_Tiger\GitHub Page creation\css\style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
 
-    <header>
-        <h1>Samba Siva Perumalla</h1>
-    </header>
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="C:\Users\perumalla.harikr\Desktop\My_Folder_Tiger\GitHub Page creation\krishna.jpg" style="width:100%"> 
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#Projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
 
-    <div class="fade-buttons">
-        <a href="#about">About</a>
-        <a href="#overview">Overview</a>
-        <a href="#contact">Contact</a>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#Projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-small w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Samba Siva Perumalla.</h1>
+    <h2>Data Engineer</h2>
+    <!--<img src="C:\Users\perumalla.harikr\Desktop\My_Folder_Tiger\GitHub Page creation\krishna.jpg" alt="boy" class="w3-image" width="550" height="150"> -->
+  </header>
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <!--<h2 class="">Samba Siva Harikrishna</h2>
+    <hr style="width:200px" class="w3-opacity">  -->
+    <p>Passionate about exploring opportunities as a Data Engineer. Close to 5 yrs. experience includes expertly building ETL/ELT pipelines, conducting data analysis, visualizing data insights, and overseeing data warehousing. I have a strong command over Microsoft Technologies such as SSIS, SQL Server, Power BI, and Microsoft Azure, inclusive of ADLS, Azure Data Factory (ADF) and Databricks (ADB) with Pyspark and SparkSQL. Strong Desire to move forward, face new challenges and expand my skill set.
+    </p>
+    <h3 class="w3-padding-16 w3-text-yellow">My Skills</h3>
+	<hr style="width:200px" class="w3-opacity">
+	
+    <p class="w3-wide w3-text-light-grey">SQL Server</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
+    <p class="w3-wide w3-text-light-grey">Azure Data Factory (ADF) & Azure Databricks (ADB)</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide w3-text-light-grey">PySpark & SparkSQL</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide w3-text-light-grey">Power Bi & Control-M</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+	
+    </div><br>
 
-    <section class="main-content" id="about">
-        <h2>About Me</h2>
-        <p>
-            With over 5 years of experience in data engineering, I am dedicated to transforming raw data into meaningful insights. 
-            My expertise includes designing robust data pipelines, ensuring data quality, and implementing scalable solutions for efficient data processing.
-        </p>
-    </section>
+  <a href="C:\Users\perumalla.harikr\Desktop\My_Folder_Tiger\MyFolder\Perumalla Samba Siva Hari Krishna.pdf" download>
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+    </button>
+</a>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="Projects">
+    <h2 class="w3-text-yellow">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-    <section class="main-content" id="overview">
-        <h2>Professional Overview</h2>
-        <p>
-            As a seasoned data engineer, I have successfully managed and implemented various projects. 
-            Explore some of my GitHub repositories below to see my work in action.
-        </p>
-        <div class="project">
-            <h3>GitHub Project 1</h3>
-            <p>
-                Description of the first GitHub project. This project showcases my skills in data processing and analysis.
-            </p>
-        </div>
-        <div class="project">
-            <h3>GitHub Project 2</h3>
-            <p>
-                Description of the second GitHub project. Here, I applied innovative solutions for efficient data management.
-            </p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+  <h3 class="w3-padding-16 w3-text-light-grey">Professional Overview</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+	<div class="w3-full w3-margin-bottom">
+		<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Tiger Analytics</li>
+          <p>Need to fill Tiger project</p>
+        </ul>
+      </div>
+	<div class="w3-half w3-margin-bottom">
+		<ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Accenture Solutions</li>
+          <p>In my role, I excelled in creating robust data pipelines in Azure Data Factory, incorporating parameterization concepts for flexibility. Responsibilities included scheduling triggers, monitoring performance, and engaging in data ingestion, transformation, and cleansing. Utilizing Azure DevOps, I implemented CI/CD for streamlined deployment. I contributed to data transfer from Data Lake to Azure Databricks, executing transformations. Migrating SSIS packages showcased adaptability, whether enhancing existing pipelines or designing new ones. Monitoring ETL activities and resolving data issues promptly within sprint timelines ensured project success. Automation improved efficiency, and the Control-M implementation optimized task management.</p>
+        </ul>
+      </div>
+	  
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+		<li class="w3-dark-grey w3-xlarge w3-padding-32">Wipro Limited</li>
+		<p>Successfully leading two impactful projects, I spearheaded the creation of senior-level Power BI Paginated reports in the Visualing project. Managing data importation from diverse sources and migrating reports to Power BI, I played a crucial role in the development lifecycle and demonstrated a proactive approach to meet deadlines. In the Big Data project, I contributed to tool upgrades, specifically migrating Hadoop from CDH5 to CDH7. Engaging in Disaster Recovery and Change Request activities, I automated manual processes and monitored critical workflows. Worked on Spark jobs to generate billing reports. Active project participation and leveraging Jenkins for deployment showcased to continuous improvement and streamlined workflows in both projects</p>
+      </ul>
+      </div>
+	  <h3 class="w3-padding-16 w3-text-light-grey">GitHub Projects</h3>
+	</div>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-yellow">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-    <section class="main-content" id="contact">
-        <h2>Contact Details</h2>
-        <p>
-            Feel free to reach out to me for any professional inquiries or collaboration opportunities. 
-            You can contact me via email at sambasiva@example.com. Connect with me on LinkedIn and Twitter for updates on my latest projects.
-        </p>
-    </section>
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Bangalore, India</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 9494119796</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: sambasiva1330@gmail.com</p>
+	  <p><a href="https://www.linkedin.com/in/samba-siva-perumalla/" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a> LinkedIn: linkedin.com/in/samba-siva-perumalla/ </p>
+	  <p><a href="https://twitter.com/your_twitter_username" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-twitter fa-fw w3-text-white w3-xxlarge w3-margin-right"></i></a>  Twitter: sambasiva1330@gmail.com
+         </p>
+    </div><br>
+	<p>Feel free to reach out to me for any professional inquiries or collaboration opportunities. Connect with me on LinkedIn and Twitter for updates on my latest projects.
+    </p>
+   <!-- End Contact Section -->
+  </div>
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer>
+	<div class="w3-content w3-justify w3-text-w w3-padding-64">
+	
+  <!-- End footer -->
+</footer>
 
-    <script src="/script.js"></script>
+<!-- END PAGE CONTENT -->
+</div>
 
 </body>
 </html>
